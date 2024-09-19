@@ -1,6 +1,5 @@
-## Return Negative
+//Problem 1
 
-```js
 function MakeNegative(num1) {
     if (num1 <= 0){
     return(num1)
@@ -12,11 +11,9 @@ function MakeNegative(num1) {
 console.log(MakeNegative(-1))
 console.log(MakeNegative(5))
 console.log(MakeNegative(0))
-```
 
-## Sum of Positive
+//Problem 2
 
-```js
 const myArray = [1, -4, 7, 12]
 
 function sum(anArray){
@@ -30,11 +27,9 @@ function sum(anArray){
 }
 
 console.log(sum(myArray))
-```
 
-## Function 2
+//Problem 3
 
-```js
 function square(num1) {
     return(num1 * num1)
 }
@@ -42,11 +37,9 @@ function square(num1) {
 console.log(square(-1))
 console.log(square(5))
 console.log(square(0))
-```
 
-## Sum Arrays
+//Problem 4
 
-```js
 const myArray = [1, 5.2, 4, 0, -1]
 const mySecondArray = [-2.398]
 const myThirdArray = []
@@ -62,11 +55,8 @@ function sum(anArray){
 console.log(sum(myArray))
 console.log(sum(mySecondArray))
 console.log(sum(myThirdArray))
-```
 
-## Reversed Strings
-
-```js
+//Problem 5
 let world = 'world'
 
 function reversie(aString){
@@ -78,4 +68,3 @@ function reversie(aString){
 }
 
 console.log(reversie(world))
-```
