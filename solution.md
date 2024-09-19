@@ -21,9 +21,9 @@ const myArray = [1, -4, 7, 12]
 
 function sum(anArray){
     let num1 = 0
-    for (let i = 0; i < myArray.length; i++){
-        if (myArray[i] > 0) {
-            num1 = myArray[i] + num1
+    for (let i = 0; i < anArray.length; i++){
+        if (anArray[i] > 0) {
+            num1 = anArray[i] + num1
         }
     }
     return(num1)
